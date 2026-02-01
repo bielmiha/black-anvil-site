@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Black Anvil Studio</title>
+  <meta name="description" content="Black Anvil Studio é um estúdio independente brasileiro. Forjando jogos com peso, técnica e consequência.">
+  <link rel="stylesheet" href="assets/style.css">
+  <!-- opcional: <link rel="icon" href="assets/favicon.svg"> -->
+</head>
+<body>
+
+<header>
+  <nav class="nav" aria-label="Navegação principal">
+    <div class="brand">
+      <span class="dot" aria-hidden="true"></span>
+      <span>Black Anvil Studio</span>
+    </div>
+    <div class="navlinks">
+      <a href="index.html" aria-current="page">Home</a>
+      <a href="about.html">About</a>
+      <a href="projects.html">Projetos</a>
+    </div>
+  </nav>
+</header>
+
+<main class="container">
+  <section class="hero">
+    <div class="kicker">Estúdio independente</div>
+    <h1>Forjando jogos com peso, técnica e consequência.</h1>
+    <p class="lead">
+      O Black Anvil Studio é um estúdio brasileiro focado em desenvolvimento de jogos autorais.
+      Criamos experiências com identidade forte, sistemas bem construídos e temas densos, inspirados por dark fantasy,
+      ação e narrativa emergente.
+    </p>
+
+    <div class="actions">
+      <a class="btn" href="projects.html">Ver projetos</a>
+      <a class="btn" href="about.html">Conhecer o estúdio</a>
+    </div>
+  </section>
+
+  <section class="grid" aria-label="Seções principais">
+    <div class="card col-6">
+      <h2>Jogos são forjados, não montados</h2>
+      <p class="small">
+        Valorizamos processo: protótipo, teste, ajuste e polimento. Cada mecânica precisa ter propósito e resistir ao uso.
+        Técnica existe para servir a experiência do jogador.
+      </p>
+    </div>
+
+    <div class="card col-6">
+      <h2>Dark fantasy como linguagem</h2>
+      <p class="small">
+        Exploramos mundos imperfeitos e escolhas difíceis. A estética sombria não é só visual: ela influencia o design,
+        o ritmo e as consequências. Nada é gratuito.
+      </p>
+    </div>
+
+    <div class="card col-12">
+      <h2>O que fazemos</h2>
+      <ul class="list">
+        <li>Design de sistemas e mecânicas</li>
+        <li>Prototipação focada em jogabilidade</li>
+        <li>Criação de mundos, personagens e identidade visual</li>
+        <li>Tech art e otimização visual</li>
+      </ul>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div>© <span id="year"></span> Black Anvil Studio</div>
+    <div class="small">Idioma: PT-BR (compatível com tradução automática do navegador).</div>
+  </footer>
+</main>
+
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+</body>
+</html>

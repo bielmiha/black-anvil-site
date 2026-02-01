@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>About — Black Anvil Studio</title>
+  <meta name="description" content="Sobre o Black Anvil Studio: processo, ofício, técnica e identidade autoral.">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<header>
+  <nav class="nav" aria-label="Navegação principal">
+    <div class="brand">
+      <span class="dot" aria-hidden="true"></span>
+      <span>Black Anvil Studio</span>
+    </div>
+    <div class="navlinks">
+      <a href="index.html">Home</a>
+      <a href="about.html" aria-current="page">About</a>
+      <a href="projects.html">Projetos</a>
+    </div>
+  </nav>
+</header>
+
+<main class="container">
+  <section class="hero">
+    <div class="kicker">Sobre</div>
+    <h1>Ofício e técnica a serviço da criação</h1>
+    <p class="lead">
+      Black Anvil Studio nasce da união entre criação artística e pensamento técnico. A identidade do estúdio se inspira
+      no conceito de oficina: um espaço onde ideias são testadas, refinadas e reconstruídas até atingirem sua forma final.
+    </p>
+  </section>
+
+  <section class="grid">
+    <div class="card col-6">
+      <h2>Abordagem</h2>
+      <p class="small">
+        O foco está na jogabilidade, na solidez dos sistemas e na experiência do jogador ao longo do tempo.
+        Preferimos substância a espetáculo: regras claras, consequências reais e progressão que respeita o jogador.
+      </p>
+    </div>
+
+    <div class="card col-6">
+      <h2>Por que “Black Anvil”</h2>
+      <p class="small">
+        “Anvil” representa criação e resistência: sistemas forjados para aguentar impacto. “Black” representa o tom:
+        temas densos e dark fantasy. Juntos, comunicam um estúdio autoral, técnico e sem excesso.
+      </p>
+    </div>
+
+    <div class="card col-12">
+      <h2>Valores</h2>
+      <ul class="list">
+        <li>Processo acima de atalhos</li>
+        <li>Técnica a serviço da criação</li>
+        <li>Identidade autoral</li>
+        <li>Respeito ao jogador</li>
+        <li>Evolução contínua</li>
+      </ul>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div>© <span id="year"></span> Black Anvil Studio</div>
+  </footer>
+</main>
+
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+</body>
+</html>

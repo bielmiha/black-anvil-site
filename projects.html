@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Projetos — Black Anvil Studio</title>
+  <meta name="description" content="Projetos e protótipos do Black Anvil Studio.">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<header>
+  <nav class="nav" aria-label="Navegação principal">
+    <div class="brand">
+      <span class="dot" aria-hidden="true"></span>
+      <span>Black Anvil Studio</span>
+    </div>
+    <div class="navlinks">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="projects.html" aria-current="page">Projetos</a>
+    </div>
+  </nav>
+</header>
+
+<main class="container">
+  <section class="hero">
+    <div class="kicker">Projetos</div>
+    <h1>Em desenvolvimento</h1>
+    <p class="lead">
+      Aqui ficam os projetos do Black Anvil Studio. Alguns estão em prototipação e outros em desenvolvimento ativo.
+      À medida que evoluírem, esta página ganha imagens, vídeos e links públicos.
+    </p>
+  </section>
+
+  <section class="grid">
+    <article class="card col-12" aria-label="Projeto 1">
+      <h2>Projeto 01 — (título provisório)</h2>
+      <div class="badge">Status: protótipo</div>
+      <p class="small">
+        Jogo de ação com inspiração em dark fantasy, com foco em combate, progressão e consequências.
+        O objetivo é construir uma experiência sólida, onde sistemas e escolhas do jogador se conectam de forma coerente.
+      </p>
+      <ul class="list">
+        <li>Foco: jogabilidade e sistemas</li>
+        <li>Formato: desenvolvimento incremental</li>
+        <li>Atualizações: conforme marcos do protótipo</li>
+      </ul>
+    </article>
+
+    <article class="card col-12" aria-label="Devlog">
+      <h2>Devlog (opcional)</h2>
+      <p class="small">
+        Se você quiser, dá pra adicionar um devlog aqui depois (ou um link para Itch/Steam/YouTube).
+        Por enquanto, manter simples é a melhor escolha.
+      </p>
+    </article>
+  </section>
+
+  <footer class="footer">
+    <div>© <span id="year"></span> Black Anvil Studio</div>
+  </footer>
+</main>
+
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
